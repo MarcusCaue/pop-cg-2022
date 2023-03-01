@@ -8,5 +8,5 @@
   Construído em cima de um modelo de sites e feito em parceira com <a href="https://github.com/danielmarquesvg"> Daniel Marques Vasconcelos Guimarães </a>
 </p>
 <p>
-  Acesso ao repositório original: <a href="https://github.com/olimpiadadeinformaticaifpb/olimpiadadeinformaticaifpb.github.io"> link </a>.
+  Acesso ao repositório original: <a href="https://github.com/olimpiadadeinformaticaifpb/olimpiadadeinformaticaifpb.github.io">link</a>
 </p>
