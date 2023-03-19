@@ -106,18 +106,35 @@ section#realizacao div {
 	justify-content: space-around;
 }
 
-div#sections_container > section > h3, div.text_image_container > span {
+div#sections_container > section > h3 {
 	text-align: center;
 }
 
-div.text_image_container {
-	display: flex;
-	justify-content: space-around;
-	column-gap: 1em;
+section.sections_dados_2022 > h2, section.sections_dados_2022 > div > h3 { 
+	text-align: center;
 }
 
-img {
-	width: 10em;
+section.sections_dados_2022 > div > p, div.images_container div p {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	font-size: 0.8em;
+	font-style: italic;
+	margin-top: 1em;
+}
+
+section#dados_2022 img {
+	display: block;
+	margin: auto;
+	width: 40%;
+}
+
+div.images_container {
+	display: flex;
+}
+
+div.images_container div img {
+	width: 90% !important;
 }
 
 summary {
@@ -214,6 +231,17 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 11pt;
+			}
+
+			section.sections_dados_2022 > div > p {
+				display: flex;
+				flex-direction: column;
+    		align-items: center;
+				gap: 0;
+			}
+
+			section#dados_2022 img {
+				width: 95%;
 			}
 
 		}
