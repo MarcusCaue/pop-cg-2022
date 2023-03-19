@@ -200,6 +200,10 @@ input, select, textarea {
 		div.images_container {
 			display: block;
 		}
+
+		p {
+			text-align: start !important;
+		}
 	}
 
 	html {
