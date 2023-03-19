@@ -123,6 +123,14 @@ section.sections_dados_2022 > div > p, div.images_container div p {
 	margin-top: 1em;
 }
 
+div.images_container div p {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-top: 1em;
+	text-align: center;
+}
+
+
 section#dados_2022 img {
 	display: block;
 	margin: auto;
@@ -187,6 +195,10 @@ input, select, textarea {
 
 		section#dados_2022 img {
 			width: 95%;
+		}
+
+		div.images_container {
+			display: block;
 		}
 	}
 
